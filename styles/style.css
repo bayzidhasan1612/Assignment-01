@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* shared style */
+
+
+.inter-font{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+/* main style */
+/* header style */
+nav{
+    background-color: #FFFFFF;
+    max-width: 1600px;
+    height: 92px;
+    
+}
+.btn{
+    width: 164px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #469165;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 4px;
+    padding: 12.5px 16px;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.nav-container li{
+    list-style: none;
+}
+.nav-logo{
+    margin-top: 16px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    font-size: 16px;
+    color: #000000;
+}
+.button{
+    margin-top: 24px;
+}
+
+/* main style */
+/* hero section */
+
+.hero-section{
+    max-width: 1600px;
+    height: 674px;
+    background: url("../B13-A01-Knowledge-Vault-main/assets/hero-bg.png");
+    border: 1px solid #00000000;
+}
+.hero-container{
+    max-width: 1360px;
+    margin: 115.5px auto;
+    
+    
+}
+.second-btn{
+    margin-left: 565.5px;
+}
+.second-button{
+    border: none;
+    border-radius: 1000px;
+    width: 229px;
+    background-color: #FFFFFF;
+    color: #469165;
+    font-size: 16px;
+    padding: 8px 12px 8px 34px;
+    margin-bottom: 16px;
+}
+.content{
+    max-width: 770px;
+    margin-left: 295px;
+    text-align: center;
+}
+.first-title{
+    color: #FFFFFF;
+}
+.second-title{
+    color: #30B868;
+}
+.content h1{
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 84px;
+    margin-bottom: 16px;
+}
+.text{
+    max-width: 1360px;
+    font-size: 18px;
+    color: #FFFFFF;
+    line-height: 24px;
+    margin-bottom: 32px;
+}
+.two-button{
+    display: flex;
+    gap: 16px;
+    margin-left: 447.5px;
+}
+.build-btn{
+    max-width: 250px;
+    background-color: #30B868;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 16.5px 16px;
+    border: none;
+    border-radius: 4px;
+}
+.watch-btn{
+     max-width: 198px;
+     border: 1px solid #ffffff;
+     border-radius: 4px;
+     background-color: #00000000;
+     color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 16.5px 16px;
+}
