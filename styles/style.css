@@ -3,10 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 .btn-lift{
     cursor: pointer;
-
+    transition: transform 0.2s, box-shadow 0.2s;
+    
+}
+.btn-lift:hover{
+    box-shadow: 0 0 15px rgba(210, 137, 59, 0.855);
+    transform: translate(-3px);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    /* background-color: transparent;
+    color: #5b8c6a; */
 }
 
 /* shared style */
@@ -52,6 +59,10 @@ nav{
     align-items: center;
     gap: 32px;
     font-size: 16px;
+    color: #000000;
+}
+.menu a{
+    text-decoration: none;
     color: #000000;
 }
 .button{
