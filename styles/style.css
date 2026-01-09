@@ -5,16 +5,11 @@
 }
 .btn-lift{
     cursor: pointer;
-    transition: 0.4s;
-    /* transition: transform 0.2s, box-shadow 0.2s; */
-    
+    transition: all 0.3s ease;
 }
 .btn-lift:hover{
-    /* box-shadow: 0 0 15px rgba(210, 137, 59, 0.855); */
-    /* transform: translate(-3px); */
-    box-shadow: 1px 1px 15px rgb(244, 207, 76);
-    /* background-color: transparent;
-    color: #5b8c6a; */
+    box-shadow: 1px 1px 15px rgb(255, 214, 65);
+    transform: translateY(-5px);
 }
 
 /* shared style */
