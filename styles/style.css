@@ -167,7 +167,7 @@ nav{
     max-width: 322px;
     border: 1px solid #FFFFFF;
     border-radius: 8px;
-    box-shadow: 0 0 8px #000000;
+    box-shadow: 0 0 8px 0 #000000;
     text-align: center;
 }
 .card img{
@@ -200,8 +200,8 @@ nav{
 .brain-container{
     display: flex;
     justify-content: space-around;
-    /* gap: 60px; */
-    margin: 120px auto;
+    gap: 60px;
+    margin: 120px;
 }
 .brain-img img{
     /* max-width: 600px; */
@@ -209,6 +209,11 @@ nav{
 .brain-message{
     max-width: 700px;
     margin-top: 102px;
+}
+.section-message{
+    max-width: 700px;
+    height: 228px;
+    margin-bottom: 40px;
 }
 .brain-title{
     font-size: 16px;
@@ -218,6 +223,7 @@ nav{
 }
 .brain-heading{
     max-width: 700px;
+    height: 116px;
     font-size: 48px;
     font-weight: bold;
     color: #001931;
@@ -233,8 +239,59 @@ nav{
     list-style: none;
     margin-bottom: 16px;
 } 
-.check-mark{
-    /* margin-bottom: 16px;
-    max-width: 700px;
-    height: 20px;
+
+
+/* Challenges style */
+
+.early-access{
+    max-width: 1360px;
+    height: 384px;
+    background-color: #F7F6F2;
+    margin: 2px 120px;
+}
+.access-container{
+  
+}
+/* .title-subtitle{
+    margin-top: 80px;
 } */
+.access-title{
+    font-size: 40px;
+    font-weight: bold;
+    color: #001931;
+    text-align: center;
+    padding-top: 80px;
+    margin-bottom: 16px;
+}
+.access-subtitle{
+    font-size: 16px;
+    line-height: 24px;
+    color: #627382;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.access-button{
+    display: flex;
+    justify-content: center;
+}
+.access-btn{
+     max-width: 194px;
+    background-color: #469165;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 16.5px 16px;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 16px;
+}
+.end-message{
+    display: flex;
+    justify-content: center;
+}
+.end-message p{
+    font-size: 16px;
+    color: #627382;
+    line-height: 20px;
+}
